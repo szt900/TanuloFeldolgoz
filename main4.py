@@ -23,6 +23,6 @@ while True:
 print("\nTanulók listája\n")
 i=0
 while i<len(tanulok):
-    print(f"Sorszám: {i+1}, Név: {tanulok[i][0]}, születési ideje: {tanulok[i][1]}, magasság: {tanulok[i][2]}")
+    print(f'Sorszám: {i+1}, Név: {tanulok[i]["nev"]}, születési ideje: {tanulok[i]["szId"]}, magasság: {tanulok[i]["magassag"]}')
 
     i+=1

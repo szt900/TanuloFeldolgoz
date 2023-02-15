@@ -10,7 +10,7 @@ while True:
     tanulo = (nev, szId, magassag)
     tanulok.append(tanulo)
 
-    valasz = input("Tuvábbi tanulo? y/n ")
+    valasz = input("További tanulo? y/n ")
     if valasz.lower() != 'y':
         break
 
@@ -19,4 +19,4 @@ while True:
 
 #3 Hozzáférés listaelem segítségével
 for item in tanulok:
-    print(item)
+    print(f"Név: {item[0]}"), születési ideje: {item[1]}, magasság: {item[2]}"
